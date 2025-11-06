@@ -30,9 +30,13 @@ if ( ! function_exists( 'ent_fs' ) ) {
                 'slug'                => 'entervia',
                 'type'                => 'theme',
                 'public_key'          => 'pk_a3a23e6b092e9e0e7cab4ca8bf12f',
-                'is_premium'          => false,
+                'is_premium'          => true,
+                'is_premium_only'     => true,
                 'has_addons'          => false,
-                'has_paid_plans'      => false,
+                'has_paid_plans'      => true,
+                // Automatically removed in the free version. If you're not using the
+                // auto-generated free version, delete this line before uploading to wp.org.
+                'wp_org_gatekeeper'   => 'OA7#BoRiBNqdf52FvzEf!!074aRLPs8fspif$7K1#4u4Csys1fQlCecVcUTOs2mcpeVHi#C2j9d09fOTvbC0HloPT7fFee5WdS3G',
                 'menu'                => array(
                     'support'        => false,
                 ),
@@ -47,7 +51,6 @@ if ( ! function_exists( 'ent_fs' ) ) {
     // Signal that SDK was initiated.
     do_action( 'ent_fs_loaded' );
 }
-
 if (! function_exists('entervia_support')) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
