@@ -16,6 +16,37 @@
  *
  * @return void
  */
+if ( ! function_exists( 'ent_fs' ) ) {
+    // Create a helper function for easy SDK access.
+    function ent_fs() {
+        global $ent_fs;
+
+        if ( ! isset( $ent_fs ) ) {
+            // Include Freemius SDK.
+            require_once dirname( __FILE__ ) . '/vendor/freemius/start.php';
+
+            $ent_fs = fs_dynamic_init( array(
+                'id'                  => '21627',
+                'slug'                => 'entervia',
+                'type'                => 'theme',
+                'public_key'          => 'pk_a3a23e6b092e9e0e7cab4ca8bf12f',
+                'is_premium'          => false,
+                'has_addons'          => false,
+                'has_paid_plans'      => false,
+                'menu'                => array(
+                    'support'        => false,
+                ),
+            ) );
+        }
+
+        return $ent_fs;
+    }
+
+    // Init Freemius.
+    ent_fs();
+    // Signal that SDK was initiated.
+    do_action( 'ent_fs_loaded' );
+}
 
 if (! function_exists('entervia_support')) :
 	/**
