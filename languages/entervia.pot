@@ -1,9 +1,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Entervia\n"
+"Project-Id-Version: Entervia Pro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-19 01:44+0000\n"
+"POT-Creation-Date: 2025-11-06 06:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,13 +16,27 @@ msgstr ""
 "X-Loco-Version: 2.8.0; wp-6.8.3; php-8.1.10\n"
 "X-Domain: entervia"
 
-#: inc/admin/theme-info.php:297
+#: patterns/pricing.php:48
 msgid ""
-"\"Fearless Setup - Our Dedicated Team will have your website up in minutes"
+" Choose Plans\n"
+" Choose Plans\n"
+" Choose Plans"
 msgstr ""
 
 #: patterns/services.php:70 patterns/services.php:362
 msgid "$1,299"
+msgstr ""
+
+#: patterns/pricing.php:38
+msgid "$100"
+msgstr ""
+
+#: patterns/pricing.php:132
+msgid "$180"
+msgstr ""
+
+#: patterns/pricing.php:86
+msgid "$250"
 msgstr ""
 
 #: patterns/services.php:186
@@ -33,8 +47,8 @@ msgstr ""
 msgid "$899"
 msgstr ""
 
-#: inc/admin/theme-info.php:52
-msgid "( Limited blocks available )"
+#: patterns/banner-pro.php:18
+msgid "+1987 123456"
 msgstr ""
 
 #: patterns/contact-us.php:130
@@ -85,20 +99,12 @@ msgstr ""
 msgid "232+"
 msgstr ""
 
-#: inc/admin/theme-info.php:95
-msgid "24/7 premium support"
-msgstr ""
-
 #: patterns/main-features.php:133
 msgid "30+ apps"
 msgstr ""
 
 #: patterns/404.php:13
 msgid "404"
-msgstr ""
-
-#: inc/admin/theme-info.php:106
-msgid "50+"
 msgstr ""
 
 #: patterns/features.php:55
@@ -115,10 +121,6 @@ msgstr ""
 
 #: functions.php:118
 msgid "Admin Icon"
-msgstr ""
-
-#: inc/admin/theme-info.php:150
-msgid "Advanced Templates"
 msgstr ""
 
 #: patterns/main-features.php:109 patterns/main-features.php:183
@@ -140,12 +142,20 @@ msgstr ""
 msgid "Android Development"
 msgstr ""
 
-#: inc/admin/theme-info.php:249
-msgid "Animation"
+#: patterns/pricing.php:34
+msgid "Annual"
 msgstr ""
 
 #: patterns/services.php:175
 msgid "App Store Deployment"
+msgstr ""
+
+#: patterns/testimonials-pro.php:36 patterns/testimonials-pro.php:86
+#: patterns/testimonials-pro.php:136
+msgid ""
+"Architecto autem facilis conse quuntur rerum nemo! Torquent non, nostrum "
+"quis vestibulum magnis? Quos praesentium netus. Gravida, eros, ridiculus "
+"dolor purus eveniet magnam vero."
 msgstr ""
 
 #: patterns/our-team.php:43
@@ -160,12 +170,12 @@ msgstr ""
 msgid "Backend Solutions"
 msgstr ""
 
-#: inc/admin/theme-info.php:141
-msgid "Better Customization Without Code"
+#: inc/tgm-plugin/tgmpa-hook.php:69
+msgid "Blocks Animation"
 msgstr ""
 
-#: inc/admin/theme-info.php:104
-msgid "Block Patterns"
+#: patterns/about-us.php:45
+msgid "Business Growth"
 msgstr ""
 
 #: patterns/contact-us.php:106
@@ -184,9 +194,17 @@ msgstr ""
 msgid "CEO, Bennett Solutions"
 msgstr ""
 
+#: patterns/testimonials-pro.php:150
+msgid "CEO, BlueNova Technologies"
+msgstr ""
+
 #: patterns/main-features.php:37 patterns/main-features.php:41
 #: patterns/main-features.php:45
 msgid "Ceteros detraxit mediocritatem eu, eam no saepe volutpats"
+msgstr ""
+
+#: patterns/testimonials-pro.php:100
+msgid "CFO, Greenway Logistics"
 msgstr ""
 
 #: patterns/process.php:18
@@ -351,6 +369,10 @@ msgctxt "Color name"
 msgid "Transparent"
 msgstr ""
 
+#: patterns/features-pro.php:20
+msgid "Complete Projects"
+msgstr ""
+
 #: patterns/footer.php:97
 msgid "Conditions"
 msgstr ""
@@ -374,9 +396,22 @@ msgstr ""
 msgid "Contact  Us"
 msgstr ""
 
-#: patterns/call-to-action.php:23 patterns/footer.php:49
-#: patterns/footer.php:101
+#: patterns/call-to-action.php:23 patterns/contact-us-pro.php:13
+#: patterns/footer.php:49 patterns/footer.php:101
 msgid "Contact Us"
+msgstr ""
+
+#: patterns/faq-pro.php:60
+msgid ""
+"Contact us via our website or phone. Well schedule a free consultation to "
+"understand your needs and recommend the best way forward."
+msgstr ""
+
+#: patterns/pricing.php:57 patterns/pricing.php:61 patterns/pricing.php:65
+#: patterns/pricing.php:69 patterns/pricing.php:103 patterns/pricing.php:107
+#: patterns/pricing.php:111 patterns/pricing.php:115 patterns/pricing.php:149
+#: patterns/pricing.php:153 patterns/pricing.php:157 patterns/pricing.php:161
+msgid "Conubia fuga irure ab primis."
 msgstr ""
 
 #: patterns/footer.php:73
@@ -385,6 +420,10 @@ msgstr ""
 
 #: patterns/services.php:171
 msgid "Cross-platform Apps"
+msgstr ""
+
+#: patterns/testimonials-pro.php:50
+msgid "CTO, Expert Solultion"
 msgstr ""
 
 #: theme.json:1
@@ -409,6 +448,10 @@ msgstr ""
 
 #: patterns/services.php:272
 msgid "Cybersecurity"
+msgstr ""
+
+#: patterns/testimonials-pro.php:96
+msgid "Daniel Kim"
 msgstr ""
 
 #: patterns/services.php:289 patterns/services.php:293
@@ -449,20 +492,20 @@ msgstr ""
 msgid "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
 msgstr ""
 
-#: inc/admin/theme-info.php:189
-msgid "Drag and Drop functionality"
+#: patterns/contact-us-pro.php:47
+msgid "Email"
 msgstr ""
 
-#: inc/admin/theme-info.php:68
-msgid "Easy Setup"
+#: patterns/testimonials-pro.php:146
+msgid "Emily Rodriguez"
+msgstr ""
+
+#: patterns/banner-pro.php:70
+msgid "Empowering Online"
 msgstr ""
 
 #: patterns/banner.php:32
 msgid "Empowering Online Presence"
-msgstr ""
-
-#: inc/admin/theme-info.php:239
-msgid "Enable Sticky Header"
 msgstr ""
 
 #: patterns/main-features.php:100
@@ -473,44 +516,31 @@ msgstr ""
 msgid "Engineering Manager"
 msgstr ""
 
-#. Name of the theme
+#: inc/block-patterns.php:19
 msgid "Entervia"
 msgstr ""
 
-#: inc/block-patterns.php:19
-msgid "entervia"
-msgstr ""
-
-#: inc/admin/theme-info.php:18
-msgid ""
-"Entervia - A Multipurpose, browser & device-friendly Full Site Editing Theme "
-"for WordPress"
+#. Name of the theme
+#: inc/block-patterns.php:20
+msgid "Entervia Pro"
 msgstr ""
 
 #. Description of the theme
 msgid ""
-"entervia is a modern, multipurpose, and fully block-based Full Site Editing "
-"(FSE) WordPress theme designed to help you build stunning websites "
-"effortlessly. Crafted with performance and flexibility in mind, entervia "
-"empowers you to create visually appealing layouts using the Gutenberg block "
-"editor — no coding required.With a clean and professional design, entervia "
-"is ideal for businesses, agencies, startups, freelancers, portfolios, and "
-"corporate websites who value both style and speed. The theme is built to "
-"deliver an exceptional user experience, lightning-fast load times, and "
-"complete customization freedom. Check the real demo:  https://demos."
-"trendthemeswp.com/entervia"
+"Entervia Pro is a sleek and professional Full Site Editing (FSE) WordPress "
+"theme crafted for modern businesses, startups, agencies, consulting firms, "
+"corporate websites, digital marketing companies, finance, IT solutions, SaaS,"
+" and technology-driven projects. With its intuitive design and no-coding "
+"customization, you can effortlessly build and tailor every part of your "
+"site—from headers to footers. Packed with pre-built templates, block "
+"patterns, and multiple style variations, Bizora ensures your website looks "
+"polished, responsive, and ready to impress clients. Perfect for creating a "
+"strong online presence with speed, flexibility, and style. Check the real "
+"demo:  https://demos.trendthemeswp.com/entervia-pro"
 msgstr ""
 
-#: inc/admin/theme-notice.php:2
-msgid "Entervia Pro"
-msgstr ""
-
-#: inc/admin/theme-info.php:59
-msgid "entervia Pro ( More Blocks & Settings available )"
-msgstr ""
-
-#: class/admin-info.php:24 class/admin-info.php:25
-msgid "entervia Theme"
+#: inc/tgm-plugin/tgmpa-hook.php:64
+msgid "Essential Blocks"
 msgstr ""
 
 #: patterns/our-team.php:77
@@ -525,7 +555,7 @@ msgstr ""
 msgid "Experiences shared by our happy customers"
 msgstr ""
 
-#: patterns/why-us.php:53
+#: patterns/about-us.php:87 patterns/why-us.php:53
 msgid "Expert Team"
 msgstr ""
 
@@ -544,7 +574,7 @@ msgid ""
 "Explore craftify’s curated collection of and classic contemporary pieces"
 msgstr ""
 
-#: patterns/faq.php:16
+#: patterns/faq-pro.php:16 patterns/faq.php:16
 msgid "FAQ"
 msgstr ""
 
@@ -552,8 +582,12 @@ msgstr ""
 msgid "FEATURES"
 msgstr ""
 
-#: patterns/main-features.php:18 inc/admin/theme-info.php:56
+#: patterns/main-features.php:18
 msgid "Features"
+msgstr ""
+
+#: patterns/contact-us-pro.php:31
+msgid "First Name"
 msgstr ""
 
 #: patterns/contact-us.php:77
@@ -565,20 +599,8 @@ msgctxt "Font family name"
 msgid "Inter"
 msgstr ""
 
-#: inc/admin/theme-info.php:51
-msgid "Free"
-msgstr ""
-
-#: inc/admin/theme-info.php:39
-msgid "Free Vs Pro"
-msgstr ""
-
-#: patterns/faq.php:21 patterns/faq.php:26
+#: patterns/faq-pro.php:21 patterns/faq.php:21 patterns/faq.php:26
 msgid "Freequently Asked Questions."
-msgstr ""
-
-#: inc/admin/theme-info.php:180
-msgid "Frequent Updates"
 msgstr ""
 
 #: patterns/footer.php:77
@@ -595,6 +617,10 @@ msgstr ""
 msgid "Frontend Development"
 msgstr ""
 
+#: patterns/about-us.php:25
+msgid "Full Potential"
+msgstr ""
+
 #: patterns/our-team.php:81
 msgid "Full‑Stack Developer"
 msgstr ""
@@ -607,29 +633,17 @@ msgstr ""
 msgid "Fusce ac felis sit amet"
 msgstr ""
 
-#: patterns/footer.php:16 patterns/footer.php:53
+#: patterns/footer.php:53
 msgid "Gallery"
 msgstr ""
 
-#: inc/admin/theme-notice.php:5
-msgid "Get Entervia Pro"
+#: patterns/contact-us-pro.php:18
+msgid "Get in touch today."
 msgstr ""
 
-#: inc/admin/theme-info.php:304
-msgid "Get Premium Version"
-msgstr ""
-
-#: patterns/banner.php:22 patterns/main-features.php:52
-#: patterns/main-features.php:226
+#: patterns/banner-pro.php:60 patterns/banner.php:22
+#: patterns/main-features.php:52 patterns/main-features.php:226
 msgid "Get Started"
-msgstr ""
-
-#: inc/admin/theme-info.php:300
-msgid "Get Support"
-msgstr ""
-
-#: inc/admin/theme-info.php:169
-msgid "Global Style Variations"
 msgstr ""
 
 #: theme.json:1
@@ -696,16 +710,16 @@ msgstr ""
 msgid "Growth Strategy"
 msgstr ""
 
-#: inc/admin/theme-info.php:227
-msgid "Gutenberg block editor"
-msgstr ""
-
-#: inc/admin/theme-info.php:97
-msgid "High-Priority Dedicated Support"
-msgstr ""
-
 #: patterns/footer.php:45
 msgid "Home"
+msgstr ""
+
+#: patterns/faq-pro.php:59
+msgid "How do we get started?"
+msgstr ""
+
+#: patterns/faq-pro.php:41
+msgid "How do you work?"
 msgstr ""
 
 #. Author URI of the theme
@@ -713,7 +727,7 @@ msgid "https://trendthemeswp.com"
 msgstr ""
 
 #. URI of the theme
-msgid "https://trendthemeswp.com/products/entervia/"
+msgid "https://trendthemeswp.com/products/entervia-pro/"
 msgstr ""
 
 #: patterns/testimonials.php:38 patterns/testimonials.php:84
@@ -722,19 +736,11 @@ msgid ""
 "delivery, and great support throughout the entire project process."
 msgstr ""
 
-#: inc/admin/theme-info.php:269
-msgid "Icon Picker"
-msgstr ""
-
 #: patterns/process.php:104
 msgid "Implementation"
 msgstr ""
 
-#: inc/admin/theme-info.php:209
-msgid "Import components/ templates"
-msgstr ""
-
-#: patterns/contact-us.php:67
+#: patterns/banner-pro.php:22 patterns/contact-us.php:67
 msgid "info@example.com"
 msgstr ""
 
@@ -744,6 +750,10 @@ msgstr ""
 
 #: patterns/services.php:343
 msgid "Infrastructure Setup"
+msgstr ""
+
+#: patterns/about-us.php:65
+msgid "Innovative Solutions"
 msgstr ""
 
 #: patterns/why-us.php:97
@@ -764,15 +774,28 @@ msgid ""
 "return to homepage."
 msgstr ""
 
+#: patterns/testimonials-pro.php:46
+msgid "James Paul"
+msgstr ""
+
 #: patterns/services.php:223
 msgid "Keyword Research"
+msgstr ""
+
+#: patterns/contact-us-pro.php:37
+msgid "Last Name"
+msgstr ""
+
+#: patterns/post.php:18
+msgid "latest from our Blogs"
 msgstr ""
 
 #: patterns/our-team.php:149
 msgid "Lead UX Designer"
 msgstr ""
 
-#: patterns/banner.php:45 patterns/main-features.php:58 patterns/process.php:40
+#: patterns/about-us.php:120 patterns/banner-pro.php:83 patterns/banner.php:45
+#: patterns/main-features.php:58 patterns/process.php:40
 #: patterns/services.php:75 patterns/services.php:133 patterns/services.php:191
 #: patterns/services.php:251 patterns/services.php:309
 #: patterns/services.php:367 patterns/solutions.php:31
@@ -790,14 +813,6 @@ msgstr ""
 msgid "Liam Bennett"
 msgstr ""
 
-#: inc/admin/theme-info.php:122
-msgid "Lifetime Updates"
-msgstr ""
-
-#: inc/admin/theme-info.php:197 inc/admin/theme-info.php:206
-msgid "Limited"
-msgstr ""
-
 #: patterns/services.php:235
 msgid "Link Building"
 msgstr ""
@@ -808,6 +823,12 @@ msgstr ""
 
 #: patterns/our-team.php:145
 msgid "Logan Rivera"
+msgstr ""
+
+#: patterns/banner-pro.php:102 patterns/banner-pro.php:118
+#: patterns/banner-pro.php:134 patterns/banner-pro.php:150
+#: patterns/banner-pro.php:166
+msgid "Lorem Ipsum"
 msgstr ""
 
 #: patterns/features.php:25 patterns/features.php:49 patterns/features.php:73
@@ -842,8 +863,16 @@ msgstr ""
 msgid "Meet Our Creative Experts"
 msgstr ""
 
+#: patterns/contact-us-pro.php:51
+msgid "Message"
+msgstr ""
+
 #: patterns/our-team.php:111
 msgid "Mia Patel"
+msgstr ""
+
+#: patterns/pricing.php:43 patterns/pricing.php:91 patterns/pricing.php:137
+msgid "Minim recusandae, volutpat magna, class, adipiscing, consec."
 msgstr ""
 
 #: patterns/services.php:154
@@ -858,24 +887,16 @@ msgstr ""
 msgid "Monitoring"
 msgstr ""
 
+#: patterns/features-pro.php:26
+msgid "Months of Experience"
+msgstr ""
+
 #: patterns/why-us.php:38
 msgid "More Detail"
 msgstr ""
 
-#: inc/admin/theme-info.php:159
-msgid "Multiple Header/Footer Layouts"
-msgstr ""
-
-#: inc/admin/theme-info.php:131
-msgid "No coding required"
-msgstr ""
-
 #: patterns/services.php:227
 msgid "On-page SEO"
-msgstr ""
-
-#: inc/admin/theme-info.php:218
-msgid "One Click Demo Import"
 msgstr ""
 
 #: patterns/our-team.php:215
@@ -886,8 +907,22 @@ msgstr ""
 msgid "Optimization"
 msgstr ""
 
+#: patterns/post.php:13
+msgid "Our Blogs"
+msgstr ""
+
 #: patterns/process.php:13
 msgid "OUR CONSULTING PROCESS"
+msgstr ""
+
+#: patterns/faq-pro.php:54
+msgid ""
+"Our fees depend on project scope, duration, and complexity. We offer "
+"transparent pricing with flexible packages to match your budget and needs."
+msgstr ""
+
+#: patterns/pricing.php:13
+msgid "Our Plan"
 msgstr ""
 
 #: patterns/process.php:24
@@ -911,9 +946,19 @@ msgctxt "Pattern title"
 msgid "404"
 msgstr ""
 
+#: patterns/about-us.php:2
+msgctxt "Pattern title"
+msgid "About Us"
+msgstr ""
+
 #: patterns/banner.php:2
 msgctxt "Pattern title"
 msgid "Banner"
+msgstr ""
+
+#: patterns/banner-pro.php:2
+msgctxt "Pattern title"
+msgid "Banner Pro"
 msgstr ""
 
 #: patterns/call-to-action.php:2
@@ -926,14 +971,29 @@ msgctxt "Pattern title"
 msgid "Contact Us"
 msgstr ""
 
+#: patterns/contact-us-pro.php:2
+msgctxt "Pattern title"
+msgid "Contact Us Pro"
+msgstr ""
+
 #: patterns/faq.php:2
 msgctxt "Pattern title"
 msgid "FAQ"
 msgstr ""
 
+#: patterns/faq-pro.php:2
+msgctxt "Pattern title"
+msgid "FAQ Pro"
+msgstr ""
+
 #: patterns/features.php:2
 msgctxt "Pattern title"
 msgid "Features"
+msgstr ""
+
+#: patterns/features-pro.php:2
+msgctxt "Pattern title"
+msgid "Features Pro"
 msgstr ""
 
 #: patterns/footer.php:2
@@ -961,6 +1021,16 @@ msgctxt "Pattern title"
 msgid "Page Banner"
 msgstr ""
 
+#: patterns/post.php:2
+msgctxt "Pattern title"
+msgid "Post"
+msgstr ""
+
+#: patterns/pricing.php:2
+msgctxt "Pattern title"
+msgid "Pricing"
+msgstr ""
+
 #: patterns/process.php:2
 msgctxt "Pattern title"
 msgid "Process"
@@ -986,9 +1056,19 @@ msgctxt "Pattern title"
 msgid "Testimonials"
 msgstr ""
 
+#: patterns/testimonials-pro.php:2
+msgctxt "Pattern title"
+msgid "Testimonials Pro"
+msgstr ""
+
 #: patterns/trusted-patner.php:2
 msgctxt "Pattern title"
 msgid "Trusted Patner"
+msgstr ""
+
+#: patterns/trusted-patner-pro.php:2
+msgctxt "Pattern title"
+msgid "Trusted Patner Pro"
 msgstr ""
 
 #: patterns/why-us.php:2
@@ -1010,16 +1090,16 @@ msgid ""
 "lorem. Pellentesque auctor neque nec urna. Nunc nec neque."
 msgstr ""
 
-#: inc/admin/theme-info.php:278
-msgid "Portfolio Pattern"
+#: patterns/pricing.php:128
+msgid "Premium"
+msgstr ""
+
+#: patterns/banner-pro.php:70
+msgid "Presence"
 msgstr ""
 
 #: patterns/footer.php:93
 msgid "Privacy Policy"
-msgstr ""
-
-#: inc/admin/theme-info.php:26
-msgid "Pro Live Demo"
 msgstr ""
 
 #: patterns/solutions.php:144
@@ -1030,16 +1110,20 @@ msgstr ""
 msgid "Product Strategist"
 msgstr ""
 
+#: patterns/features-pro.php:32
+msgid "Professional Team"
+msgstr ""
+
 #: patterns/services.php:59
 msgid "Prototyping"
 msgstr ""
 
-#: patterns/why-us.php:83
-msgid "Quality Assurance"
+#: patterns/about-us.php:108
+msgid "Proven Results"
 msgstr ""
 
-#: inc/admin/theme-info.php:294
-msgid "Questions Welcome - We're here to help"
+#: patterns/why-us.php:83
+msgid "Quality Assurance"
 msgstr ""
 
 #: patterns/call-to-action.php:14
@@ -1066,10 +1150,6 @@ msgstr ""
 msgid "Reporting"
 msgstr ""
 
-#: inc/admin/theme-info.php:77
-msgid "Responsive Desgin"
-msgstr ""
-
 #: patterns/footer.php:69
 msgid "Returns"
 msgstr ""
@@ -1078,8 +1158,8 @@ msgstr ""
 msgid "Right Team, Right Choice"
 msgstr ""
 
-#: inc/admin/theme-info.php:259
-msgid "Scroll to Top Button"
+#: patterns/banner-pro.php:26
+msgid "Rock Street, San Francisco"
 msgstr ""
 
 #: patterns/main-features.php:124
@@ -1088,10 +1168,6 @@ msgstr ""
 
 #: patterns/solutions.php:46
 msgid "Secure Systems"
-msgstr ""
-
-#: inc/admin/theme-info.php:113
-msgid "Secure transaction"
 msgstr ""
 
 #: patterns/services.php:281
@@ -1106,6 +1182,20 @@ msgstr ""
 msgid "Sed ut perspiciatis unde omnis iste "
 msgstr ""
 
+#: patterns/about-us.php:49
+msgid "Sed ut perspiciatis unde omnis iste natus error"
+msgstr ""
+
+#: patterns/about-us.php:91
+msgid ""
+"Sed ut perspiciatis unde omnis iste natus error\n"
+"Sed ut perspiciatis unde omnis iste natus error"
+msgstr ""
+
+#: patterns/about-us.php:69
+msgid "Sed ut perspiciatis unde omnis iste natus error "
+msgstr ""
+
 #: patterns/process.php:61 patterns/process.php:85 patterns/process.php:109
 #: patterns/process.php:133 patterns/process.php:157
 msgid "Sed ut perspiciatis unde omnis iste natus error dfd "
@@ -1117,7 +1207,7 @@ msgid ""
 "doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo."
 msgstr ""
 
-#: patterns/process.php:28
+#: patterns/about-us.php:29 patterns/process.php:28
 msgid ""
 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
 "doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore "
@@ -1126,10 +1216,6 @@ msgstr ""
 
 #: patterns/contact-us.php:63
 msgid "Send Email"
-msgstr ""
-
-#: inc/admin/theme-info.php:86
-msgid "SEO Friendly"
 msgstr ""
 
 #: patterns/services.php:214
@@ -1153,6 +1239,10 @@ msgstr ""
 msgid "Smart Automation"
 msgstr ""
 
+#: patterns/pricing.php:82
+msgid "Standard"
+msgstr ""
+
 #: patterns/process.php:34
 msgid "Start Your Project"
 msgstr ""
@@ -1174,6 +1264,10 @@ msgstr ""
 #: styles/royal-grape.json:1
 msgctxt "Style variation name"
 msgid "Royal Grape"
+msgstr ""
+
+#: patterns/contact-us-pro.php:43
+msgid "Subject"
 msgstr ""
 
 #: patterns/services.php:351
@@ -1214,8 +1308,13 @@ msgstr ""
 msgid "Terms"
 msgstr ""
 
-#: inc/admin/theme-notice.php:6
-msgid "Theme Info"
+#: patterns/testimonials-pro.php:13
+msgid "Testimonials"
+msgstr ""
+
+#: patterns/contact-us-pro.php:31 patterns/contact-us-pro.php:37
+#: patterns/contact-us-pro.php:43 patterns/contact-us-pro.php:47
+msgid "This field is required."
 msgstr ""
 
 #. Author of the theme
@@ -1226,35 +1325,19 @@ msgstr ""
 msgid "Trusted Proven"
 msgstr ""
 
-#: inc/admin/theme-info.php:200
-msgid "Typography and color options"
-msgstr ""
-
 #: patterns/services.php:38 patterns/services.php:47
 msgid "UI/UX Design"
-msgstr ""
-
-#: inc/admin/theme-info.php:202
-msgid "Unlimited"
 msgstr ""
 
 #: patterns/main-features.php:85
 msgid "Up to 3x faster"
 msgstr ""
 
-#: inc/admin/theme-notice.php:3
-msgid ""
-"Upgrade to the Pro version to unlock advanced blocks and patterns, dedicated "
-"support, and theme installation with demo setup. Experience enhanced "
-"flexibility and receive dedicated support to effortlessly elevate your "
-"website to new heights of excellence."
-msgstr ""
-
 #: patterns/services.php:51
 msgid "User Research"
 msgstr ""
 
-#: patterns/banner.php:37
+#: patterns/banner-pro.php:75 patterns/banner.php:37
 msgid "Ut varius tincidunt libero. Curabitur at lacus"
 msgstr ""
 
@@ -1262,10 +1345,26 @@ msgstr ""
 msgid "Ut varius tincidunt libero. Curabitur at lacus ac velit"
 msgstr ""
 
-#: patterns/faq.php:30
+#: patterns/pricing.php:23 patterns/testimonials-pro.php:23
+msgid ""
+"Ut varius tincidunt libero. Curabitur at lacus ac velit ornare lobortis. "
+"Phasellus dolor. Vestibulum"
+msgstr ""
+
+#: patterns/contact-us-pro.php:23 patterns/post.php:23
+msgid ""
+"Ut varius tincidunt libero. Curabitur at lacus ac velit ornare lobortis. "
+"Phasellus dolor. Vestibulum "
+msgstr ""
+
+#: patterns/faq-pro.php:26 patterns/faq.php:30
 msgid ""
 "Ut varius tincidunt libero. Curabitur at lacus ac velit ornare lobortis. "
 "Phasellus dolor. Vestibulum ante ipsum primis in faucibus orci luctus et"
+msgstr ""
+
+#: patterns/pricing.php:18
+msgid "View our pricing plans"
 msgstr ""
 
 #: patterns/contact-us.php:43
@@ -1276,8 +1375,33 @@ msgstr ""
 msgid "Want to work with us?"
 msgstr ""
 
+#: patterns/faq-pro.php:42
+msgid ""
+"We analyze your goals, assess challenges, develop custom strategies, and "
+"collaborate closely throughout implementation to ensure effective, "
+"sustainable, and result-driven solutions."
+msgstr ""
+
 #: patterns/why-us.php:29
 msgid "We Believe we will be successful if our clients Are Sucessful"
+msgstr ""
+
+#: patterns/about-us.php:25
+msgid "We Help Businesses Reach Their "
+msgstr ""
+
+#: patterns/faq-pro.php:36
+msgid ""
+"We offer strategic consulting, business planning, digital solutions, project "
+"management, and operational improvements tailored to help clients achieve "
+"measurable growth."
+msgstr ""
+
+#: patterns/faq-pro.php:48
+msgid ""
+"We serve a wide range of industries including finance, healthcare, "
+"technology, education, retail, and manufacturing with specialized, industry-"
+"specific consulting solutions."
 msgstr ""
 
 #: patterns/services.php:96
@@ -1290,6 +1414,22 @@ msgid ""
 "to delivering high-quality services tailored to your needs. Our team of "
 "experts works tirelessly to ensure client satisfaction, combining experience "
 "with creativity to bring your vision to life."
+msgstr ""
+
+#: patterns/faq-pro.php:53
+msgid "What are your fees?"
+msgstr ""
+
+#: patterns/testimonials-pro.php:18
+msgid "What out Clients say"
+msgstr ""
+
+#: patterns/faq-pro.php:35
+msgid "What services do you offer?"
+msgstr ""
+
+#: patterns/faq-pro.php:47
+msgid "Which industries do you serve?"
 msgstr ""
 
 #: patterns/why-us.php:19

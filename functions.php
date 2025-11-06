@@ -78,6 +78,8 @@ add_action('admin_enqueue_scripts', 'entervia_admin_styles');
 // enqueue dashicons
 add_action('enqueue_block_assets', function (): void {
 	wp_enqueue_style('dashicons');
+	wp_enqueue_script('entervia-main-script', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), '1.0.0', true);
+	wp_enqueue_script('entervia-custom.js', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), '1.0.0', true);
 });
 
 function entervia_excerpt_length($length)
@@ -93,10 +95,8 @@ add_filter('excerpt_length', 'entervia_excerpt_length');
 // add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
 
-
-// admin Info
-require get_template_directory() . '/class/admin-info.php';
-
+// tgm-plugin
+require get_template_directory() . '/inc/tgm-plugin/tgmpa-hook.php';
 /**
  * Register block styles.
  */

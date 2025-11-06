@@ -13,11 +13,11 @@
 <div class="wp-block-column"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
 <div class="wp-block-column has-white-color has-text-color has-link-color"><!-- wp:heading {"style":{"typography":{"fontSize":"21px","fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontFamily":"hind"} -->
-<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-hind-font-family" style="font-size:21px;font-style:normal;font-weight:700"><?php echo esc_html__( 'Gallery', 'entervia' ); ?></h2>
+<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-hind-font-family" style="font-size:21px;font-style:normal;font-weight:700">Gallery</h2>
 <!-- /wp:heading -->
 
 <!-- wp:gallery {"columns":2,"linkTo":"none","sizeSlug":"full"} -->
-<figure class="wp-block-gallery has-nested-images columns-2 is-cropped"><!-- wp:image {"lightbox":{"enabled":true},"id":5487,"sizeSlug":"full","linkDestination":"none","style":{"color":{}}} -->
+<figure class="wp-block-gallery has-nested-images columns-2 is-cropped"><!-- wp:image {"lightbox":{"enabled":true},"id":5487,"sizeSlug":"full","linkDestination":"none","style":{"color":[]}} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/bg.jpg" alt="" class="wp-image-5487"/></figure>
 <!-- /wp:image -->
 
@@ -97,8 +97,8 @@
 <p class="has-primary-color has-text-color has-link-color"><?php echo esc_html__( 'Terms', 'entervia' ); ?> &amp; <?php echo esc_html__( 'Conditions', 'entervia' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-<p class="has-primary-color has-text-color has-link-color"><?php echo esc_html__( 'Contact Us', 'entervia' ); ?></p>
+<!-- wp:paragraph {"className":"entervia-scrool-top","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
+<p class="entervia-scrool-top has-primary-color has-text-color has-link-color"><?php echo esc_html__( 'Contact Us', 'entervia' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

@@ -1,4 +1,4 @@
-=== Entervia ===
+=== Entervia Pro ===
 
 Contributors: Trendthemeswp
 Author: Trendthemeswp
@@ -12,16 +12,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio
 
 == Description ==
-Entervia is a modern, multipurpose, and fully block-based Full Site Editing (FSE) WordPress theme designed to help you build stunning websites effortlessly. Crafted with performance and flexibility in mind, entervia empowers you to create visually appealing layouts using the Gutenberg block editor — no coding required.With a clean and professional design, entervia is ideal for businesses, agencies, startups, freelancers, portfolios, and corporate websites who value both style and speed. The theme is built to deliver an exceptional user experience, lightning-fast load times, and complete customization freedom. Check the real demo:  https://demos.trendthemeswp.com/entervia
+Entervia Pro is a sleek and professional Full Site Editing (FSE) WordPress theme crafted for modern businesses, startups, agencies, consulting firms, corporate websites, digital marketing companies, finance, IT solutions, SaaS, and technology-driven projects. With its intuitive design and no-coding customization, you can effortlessly build and tailor every part of your site—from headers to footers. Packed with pre-built templates, block patterns, and multiple style variations, Bizora ensures your website looks polished, responsive, and ready to impress clients. Perfect for creating a strong online presence with speed, flexibility, and style. Check the real demo:  https://demos.trendthemeswp.com/entervia-pro
 
 == Installation ==
-
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
 2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
 == Copyright ==
-
 entervia WordPress Theme, Copyright 2023 Trendthemeswp
 entervia is distributed under the terms of the GNU GPL
 

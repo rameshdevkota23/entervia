@@ -16,7 +16,8 @@
 function entervia_register_block_patterns()
 {
 	$block_pattern_categories = array(
-		'entervia' => array('label' => esc_html__('entervia', 'entervia')),
+		'entervia' => array('label' => esc_html__('Entervia', 'entervia')),
+		'entervia-pro' => array('label' => esc_html__('Entervia Pro', 'entervia'))
 	);
 
 	/**
