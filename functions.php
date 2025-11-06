@@ -23,7 +23,7 @@ if ( ! function_exists( 'ent_fs' ) ) {
 
         if ( ! isset( $ent_fs ) ) {
             // Include Freemius SDK.
-            require_once dirname( __FILE__ ) . '/vendor/freemius/start.php';
+            require_once dirname( __FILE__ ) . '/inc/freemius/start.php';
 
             $ent_fs = fs_dynamic_init( array(
                 'id'                  => '21627',
