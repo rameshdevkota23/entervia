@@ -5,9 +5,9 @@ Author: Trendthemeswp
 Author URI: https://trendthemeswp.com
 Description: Entervia is a modern, multipurpose, and fully block-based Full Site Editing (FSE) WordPress theme designed to help you build stunning websites effortlessly. Crafted with performance and flexibility in mind, entervia empowers you to create visually appealing layouts using the Gutenberg block editor — no coding required.With a clean and professional design, entervia is ideal for businesses, agencies, startups, freelancers, portfolios, and corporate websites who value both style and speed. The theme is built to deliver an exceptional user experience, lightning-fast load times, and complete customization freedom. Check the real demo:  https://demos.trendthemeswp.com/entervia
 Requires at least: 5.9
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
-Version: 1.0.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: entervia
@@ -190,9 +190,8 @@ form .wp-block-search__input {
     width: 100%;
     gap: 0;
     margin: 0;
-    padding: 0;
-    display: none;
-    box-shadow: none;
+   padding: 0;
+   box-shadow: none;
   }
 
   .wp-block-navigation
